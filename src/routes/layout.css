@@ -1,3 +1,12 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+@theme {
+	--color-site-red: #ff3b30;
+	--color-site-gold: #d4af37;
+	--color-bg: #171717;
+	--color-emphasis: #fff1d2;
+	--color-normal: #979797;
+	--color-muted: #5d584f;
+}
