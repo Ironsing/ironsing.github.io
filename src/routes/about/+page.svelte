@@ -37,7 +37,7 @@
 			<BrandButton
 				href={links.github}
 				label={siGithub.title}
-				color={`#${siGithub.hex}`}
+				color="#30363d"
 				path={siGithub.path}
 			/>
 			<BrandButton
