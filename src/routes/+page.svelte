@@ -5,7 +5,7 @@
 
 <main class="flex w-full flex-1 flex-col items-center justify-center gap-20 px-6 py-20">
 	<section class="flex flex-col items-center gap-6 text-center">
-		<h1 class="max-w-3xl font-serif text-6xl leading-tight font-medium text-emphasis sm:text-7xl">
+		<h1 class="max-w-3xl font-serif text-6xl leading-tight font-medium text-emphasis">
 			hey, i’m <a
 				href="/about"
 				class="text-site-gold underline decoration-site-gold/40 underline-offset-4 transition-colors duration-300 hover:decoration-site-gold"

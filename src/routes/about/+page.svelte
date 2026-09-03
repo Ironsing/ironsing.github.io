@@ -2,14 +2,13 @@
 	import { siGithub, siProtonmail } from 'simple-icons';
 	import BrandButton from '$lib/BrandButton.svelte';
 
-	// TODO: replace these with real URLs for the site owner.
 	const links = {
-		github: 'https://github.com/aayush-digikar',
-		email: 'mailto:aayush@proton.me'
+		github: 'https://github.com/Ironsing',
+		email: 'mailto:ironsing@proton.me'
 	};
 </script>
 
-<main class="flex w-full flex-1 flex-col items-center justify-center gap-20 px-6 py-20">
+<main class="flex flex-1 flex-col items-center justify-center gap-20 px-6 py-20">
 	<section class="flex max-w-3xl flex-col items-center gap-6 text-center">
 		<h1 class="max-w-3xl font-serif text-6xl leading-tight font-medium text-emphasis sm:text-7xl">
 			about
@@ -30,8 +29,7 @@
 				<li>and build things.</li>
 			</ol>
 			<p>
-				The endgoal here is found startups, and to live a good life. Also, these are my GitHub,
-				LinkedIn, and public email.
+				The endgoal here is found startups, and to live a good life.
 			</p>
 		</div>
 
