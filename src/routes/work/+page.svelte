@@ -2,10 +2,10 @@
 	import { Book, Link } from '@lucide/svelte';
 
 	const links = {
-		ironsingDev: 'https://example.com',
+		ironsingDev: 'https://ironsing.github.io',
 		ironsingDevWriteup: 'https://example.com',
-		ezmic: 'https://example.com',
-		adhere: 'https://example.com'
+		ezmic: 'https://github.com/Ironsing/ezmic',
+		adhere: 'https://github.com/Ironsing/adhere'
 	};
 </script>
 
@@ -25,9 +25,6 @@
 					ironsing.dev
 					<a href={links.ironsingDev} class="shrink-0" aria-label="project link">
 						<Link class="h-4 w-4 text-site-gold" strokeWidth={2} />
-					</a>
-					<a href={links.ironsingDevWriteup} class="shrink-0" aria-label="project writeup">
-						<Book class="h-4 w-4 text-site-gold" strokeWidth={2} />
 					</a>
 				</span>
 				<span class="mt-3 text-xs font-medium tracking-[0.2em] text-site-gold uppercase"
