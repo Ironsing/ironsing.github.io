@@ -9,7 +9,7 @@
 	} = $props();
 </script>
 
-<div class="flex min-h-screen w-screen flex-col bg-bg text-emphasis">
+<div class="flex min-h-dvh w-full flex-col overflow-x-hidden bg-bg text-emphasis">
 	<Titlebar />
 	{@render children()}
 	<footer class="w-full">

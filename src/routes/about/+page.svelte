@@ -10,11 +10,11 @@
 
 <main class="flex flex-1 flex-col items-center justify-center gap-20 px-6 py-20">
 	<section class="flex max-w-3xl flex-col items-center gap-6 text-center">
-		<h1 class="max-w-3xl font-serif text-6xl leading-tight font-medium text-emphasis sm:text-7xl">
+		<h1 class="max-w-3xl font-serif text-4xl leading-tight font-medium text-emphasis sm:text-7xl">
 			about
 		</h1>
 		<div
-			class="h-px w-3xl [background:linear-gradient(to_right,var(--color-site-red)_0_50%,var(--color-site-gold)_50%_100%)]"
+			class="h-px w-48 [background:linear-gradient(to_right,var(--color-site-red)_0_50%,var(--color-site-gold)_50%_100%)] sm:w-3xl"
 		></div>
 
 		<div class="flex max-w-xl flex-col items-center gap-6 text-lg text-normal">

@@ -10,3 +10,8 @@
 	--color-normal: #979797;
 	--color-muted: #5d584f;
 }
+
+html,
+body {
+	background-color: var(--color-bg);
+}

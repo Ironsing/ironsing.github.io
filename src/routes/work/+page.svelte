@@ -10,13 +10,13 @@
 </script>
 
 <main class="flex flex-1 flex-col items-center justify-center gap-4 p-8">
-	<h1 class="font-serif text-6xl leading-tight font-medium text-emphasis">stuff i've made (so far)</h1>
+	<h1 class="font-serif text-3xl leading-tight font-medium text-emphasis sm:text-6xl">stuff i've made <span class="hidden sm:inline">(so far)</span></h1>
 	<div
 		class="h-px w-3xl [background:linear-gradient(to_right,var(--color-site-red)_0_50%,var(--color-site-gold)_50%_100%)]"
 	></div>
 	<div class="flex w-full flex-wrap justify-center gap-8">
 		<div
-			class="flex w-80 flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
+			class="flex w-full max-w-xs flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
 		>
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span
@@ -37,7 +37,7 @@
 			</div>
 		</div>
 		<div
-			class="flex w-80 flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
+			class="flex w-full max-w-xs flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
 		>
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span
@@ -58,7 +58,7 @@
 			</div>
 		</div>
 		<div
-			class="flex w-80 flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
+			class="flex w-full max-w-xs flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
 		>
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span

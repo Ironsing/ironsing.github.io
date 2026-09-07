@@ -5,7 +5,7 @@
 
 <main class="flex w-full flex-1 flex-col items-center justify-center gap-20 px-6 py-20">
 	<section class="flex flex-col items-center gap-6 text-center">
-		<h1 class="max-w-3xl font-serif text-6xl leading-tight font-medium text-emphasis">
+		<h1 class="max-w-3xl font-serif text-4xl leading-tight font-medium text-emphasis sm:text-6xl">
 			hey, i’m <a
 				href="/about"
 				class="text-site-gold underline decoration-site-gold/40 underline-offset-4 transition-colors duration-300 hover:decoration-site-gold"
@@ -16,11 +16,11 @@
 			i like doing things. feel free to take a gander below.
 		</p>
 		<div
-			class="h-px w-3xl [background:linear-gradient(to_right,var(--color-site-red)_0_50%,var(--color-site-gold)_50%_100%)]"
+			class="h-px w-48 [background:linear-gradient(to_right,var(--color-site-red)_0_50%,var(--color-site-gold)_50%_100%)] sm:w-3xl"
 		></div>
 	</section>
 
-	<section class="flex w-full max-w-3xl flex-row items-stretch justify-center gap-6">
+	<section class="flex w-full max-w-3xl flex-col items-stretch justify-center gap-6 sm:flex-row">
 		<a href="/work" class="group w-full sm:w-72">
 			<BorderGlow
 				colors={[siteGold]}
