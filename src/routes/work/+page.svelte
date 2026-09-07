@@ -10,7 +10,7 @@
 </script>
 
 <main class="flex flex-1 flex-col items-center justify-center gap-4 p-8">
-	<h1 class="font-serif text-6xl leading-tight font-medium text-emphasis">stuff i've made</h1>
+	<h1 class="font-serif text-6xl leading-tight font-medium text-emphasis">stuff i've made (so far)</h1>
 	<div
 		class="h-px w-3xl [background:linear-gradient(to_right,var(--color-site-red)_0_50%,var(--color-site-gold)_50%_100%)]"
 	></div>
@@ -73,7 +73,7 @@
 					>problem statement</span
 				>
 				<span class="text-base text-normal">
-					problem statement goes here — this is placeholder text for the adhere card.
+					there's no flawless sticky notes app for Hyprland that doesn't need you to change your config.
 				</span>
 			</div>
 		</div>
