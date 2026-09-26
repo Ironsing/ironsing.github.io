@@ -11,10 +11,16 @@
 </script>
 
 <main class="flex flex-1 flex-col items-center justify-center gap-10 px-6 py-20 lg:gap-16">
-	<Hero title="about" class="max-w-3xl" ruleWidth="w-xs lg:w-3xl" />
+	<Hero class="max-w-3xl" ruleWidth="w-xs lg:w-3xl">
+		{#snippet heading()}
+			<div class="text-3xl lg:text-7xl">about</div>
+		{/snippet}
+	</Hero>
 
 	<div class="flex flex-col items-center justify-center gap-8">
-		<div class="flex max-w-xl flex-col items-center gap-6 text-base text-normal lg:text-lg">
+		<div
+			class="flex max-w-xl flex-col items-center gap-6 text-center text-sm text-normal lg:text-lg"
+		>
 			<p>
 				I'm Aayush Digikar, a programmer and first-year college student from India. I also go by <code
 					>ironsing</code
