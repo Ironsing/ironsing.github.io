@@ -5,28 +5,30 @@
 	import { siteRed, siteGold } from '$lib/design-tokens';
 </script>
 
-<main class="flex h-full w-full flex-col items-center justify-center gap-20 px-6 py-20">
-	<Hero>
+<main class="flex h-full w-full flex-col items-center justify-center gap-10 px-6 py-20 lg:gap-20">
+	<Hero ruleWidth="w-xs lg:w-3xl">
 		{#snippet heading()}
-			hey, i’m <StyledLink href="/about">Aayush Digikar.</StyledLink>
+			<div class="text-3xl lg:text-7xl">
+				hey, i’m <StyledLink href="/about">Aayush Digikar.</StyledLink>
+			</div>
 		{/snippet}
 		{#snippet lead()}
-			<p class="max-w-xl text-lg text-normal">
+			<p class="max-w-xl text-sm text-normal lg:text-lg">
 				i like doing things. feel free to take a gander below.
 			</p>
 		{/snippet}
 	</Hero>
 
-	<section class="flex w-full max-w-3xl flex-row items-stretch justify-center gap-6">
+	<section class="flex w-full flex-col items-center justify-center gap-6 lg:flex-row">
 		<ElevatedCard
 			href="/work"
 			colors={[siteGold]}
 			glowColor="45 90 60"
-			class="group h-full w-full sm:w-72"
+			class="group h-full w-full max-w-72 lg:w-72"
 		>
 			<div class="flex h-full items-center justify-between gap-6 p-8 text-left">
 				<div class="flex flex-col gap-2 text-normal">
-					<span class="flex items-center gap-4 text-2xl font-medium">
+					<span class="flex items-center gap-4 text-lg font-medium lg:text-2xl">
 						<span
 							class="h-2 w-2 rounded-full shadow-[0_0_12px_4px]"
 							style="background-color:{siteGold}; --tw-shadow-color:{siteGold}"
@@ -46,11 +48,11 @@
 			href="/writing"
 			colors={[siteRed]}
 			glowColor="8 95 55"
-			class="group h-full w-full sm:w-72"
+			class="group h-full w-full max-w-72 lg:w-72"
 		>
 			<div class="flex h-full items-center justify-between gap-6 p-8 text-left">
 				<div class="flex flex-col gap-2 text-normal">
-					<span class="flex items-center gap-4 text-2xl font-medium">
+					<span class="flex items-center gap-4 text-lg font-medium lg:text-2xl">
 						<span
 							class="h-2 w-2 rounded-full shadow-[0_0_12px_4px]"
 							style="background-color:{siteRed}; --tw-shadow-color:{siteRed}"

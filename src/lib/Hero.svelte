@@ -9,10 +9,12 @@
 		heading?: Snippet;
 		/** Optional subtitle rendered between the heading and the rule. */
 		lead?: Snippet;
+		/** Tailwind width utility forwarded to `AccentRule`. Defaults to `w-3xl`. */
+		ruleWidth?: string;
 		class?: string;
 	};
 
-	let { title, heading, lead, class: className = '' }: Props = $props();
+	let { title, heading, lead, ruleWidth, class: className = '' }: Props = $props();
 
 	const headingClass =
 		'max-w-3xl font-serif text-6xl leading-tight font-medium text-emphasis sm:text-7xl';
@@ -29,5 +31,5 @@
 	{#if lead}
 		{@render lead()}
 	{/if}
-	<AccentRule />
+	<AccentRule width={ruleWidth} />
 </section>
