@@ -1,5 +1,7 @@
 <script lang="ts">
-	import { Book, Link } from '@lucide/svelte';
+	import { Link } from '@lucide/svelte';
+	import ElevatedCard from '$lib/ElevatedCard.svelte';
+	import Hero from '$lib/Hero.svelte';
 
 	const links = {
 		ironsingDev: 'https://ironsing.github.io',
@@ -9,18 +11,14 @@
 	};
 </script>
 
-<main class="flex flex-1 flex-col items-center justify-center gap-4 p-8">
-	<h1 class="font-serif text-6xl leading-tight font-medium text-emphasis">stuff i've made (so far)</h1>
-	<div
-		class="h-px w-3xl [background:linear-gradient(to_right,var(--color-site-red)_0_50%,var(--color-site-gold)_50%_100%)]"
-	></div>
-	<div class="flex w-full flex-wrap justify-center gap-8">
-		<div
-			class="flex w-80 flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
-		>
+<main class="flex flex-1 flex-col items-center justify-center gap-20 p-8">
+	<Hero title="stuff i've made (so far)" />
+
+	<div class="flex w-full flex-wrap items-start justify-center gap-8">
+		<ElevatedCard class="w-80 p-8">
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span
-					class="flex items-center gap-2 font-serif text-2xl font-medium text-emphasis leading-none"
+					class="flex items-center gap-2 font-serif text-2xl leading-none font-medium text-emphasis"
 				>
 					ironsing.dev
 					<a href={links.ironsingDev} class="shrink-0" aria-label="project link">
@@ -35,13 +33,11 @@
 					place to be evidence that i <i>do things</i>.
 				</span>
 			</div>
-		</div>
-		<div
-			class="flex w-80 flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
-		>
+		</ElevatedCard>
+		<ElevatedCard class="w-80 p-8">
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span
-					class="flex items-center gap-2 font-serif text-2xl font-medium text-emphasis leading-none"
+					class="flex items-center gap-2 font-serif text-2xl leading-none font-medium text-emphasis"
 				>
 					ezmic
 					<a href={links.ezmic} class="shrink-0" aria-label="project link">
@@ -56,13 +52,11 @@
 					a normal mic?
 				</span>
 			</div>
-		</div>
-		<div
-			class="flex w-80 flex-col gap-6 rounded-[18px] border border-white/15 bg-bg p-8 text-left shadow-[0_16px_40px_-8px_rgba(0,0,0,0.7)]"
-		>
+		</ElevatedCard>
+		<ElevatedCard class="w-80 p-8">
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span
-					class="flex items-center gap-2 font-serif text-2xl font-medium text-emphasis leading-none"
+					class="flex items-center gap-2 font-serif text-2xl leading-none font-medium text-emphasis"
 				>
 					Adhere
 					<a href={links.adhere} class="shrink-0" aria-label="project link">
@@ -73,9 +67,10 @@
 					>problem statement</span
 				>
 				<span class="text-base text-normal">
-					there's no flawless sticky notes app for Hyprland that doesn't need you to change your config.
+					there's no flawless sticky notes app for Hyprland that doesn't need you to change your
+					hyprlang config.
 				</span>
 			</div>
-		</div>
+		</ElevatedCard>
 	</div>
 </main>
