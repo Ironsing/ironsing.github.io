@@ -10,17 +10,17 @@
 	};
 </script>
 
-<main class="flex flex-1 flex-col items-center justify-center gap-16 px-6 py-20">
-	<Hero title="about" class="max-w-3xl" />
+<main class="flex flex-1 flex-col items-center justify-center gap-10 px-6 py-20 lg:gap-16">
+	<Hero title="about" class="max-w-3xl" ruleWidth="w-xs lg:w-3xl" />
 
 	<div class="flex flex-col items-center justify-center gap-8">
-		<div class="flex max-w-xl flex-col items-center gap-6 text-lg text-normal">
+		<div class="flex max-w-xl flex-col items-center gap-6 text-base text-normal lg:text-lg">
 			<p>
 				I'm Aayush Digikar, a programmer and first-year college student from India. I also go by <code
 					>ironsing</code
 				> online. I have exactly three goals:
 			</p>
-			<ol class="list-decimal pl-8 text-left">
+			<ol class="list-decimal pl-6 text-left lg:pl-8">
 				<li>hoard things I know how to do,</li>
 				<li>produce public evidence of work,</li>
 				<li>and build things.</li>
