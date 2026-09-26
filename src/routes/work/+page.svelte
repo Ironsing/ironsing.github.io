@@ -11,11 +11,15 @@
 	};
 </script>
 
-<main class="flex flex-1 flex-col items-center justify-center gap-20 p-8">
-	<Hero title="stuff i've made (so far)" />
+<main class="flex flex-1 flex-col items-center justify-center gap-10 p-4 py-20 lg:gap-20 lg:p-8">
+	<Hero ruleWidth="w-xs lg:w-3xl">
+		{#snippet heading()}
+			<div class="text-3xl lg:text-7xl">stuff i've made (so far)</div>
+		{/snippet}
+	</Hero>
 
 	<div class="flex w-full flex-wrap items-start justify-center gap-8">
-		<ElevatedCard class="w-80 p-8">
+		<ElevatedCard class="w-full max-w-80 p-8">
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span
 					class="flex items-center gap-2 font-serif text-2xl leading-none font-medium text-emphasis"
@@ -34,7 +38,7 @@
 				</span>
 			</div>
 		</ElevatedCard>
-		<ElevatedCard class="w-80 p-8">
+		<ElevatedCard class="w-full max-w-80 p-8">
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span
 					class="flex items-center gap-2 font-serif text-2xl leading-none font-medium text-emphasis"
@@ -53,7 +57,7 @@
 				</span>
 			</div>
 		</ElevatedCard>
-		<ElevatedCard class="w-80 p-8">
+		<ElevatedCard class="w-full max-w-80 p-8">
 			<div class="flex max-w-3xs flex-col gap-3">
 				<span
 					class="flex items-center gap-2 font-serif text-2xl leading-none font-medium text-emphasis"
