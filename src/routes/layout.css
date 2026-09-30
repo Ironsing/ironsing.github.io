@@ -3,6 +3,9 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
+	--font-sans:
+		'Google Sans Flex Variable', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+		'Helvetica Neue', Arial, sans-serif;
 	--color-site-red: #ff3b30;
 	--color-site-gold: #d4af37;
 	--color-bg: #171717;
