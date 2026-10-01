@@ -10,7 +10,9 @@
 	];
 </script>
 
-<main class="flex w-full flex-1 flex-col items-center justify-center gap-12 px-6 py-20 lg:gap-16">
+<main
+	class="flex w-full flex-1 flex-col items-center gap-12 px-6 py-20 lg:justify-center lg:gap-16"
+>
 	<Hero class="max-w-3xl" ruleWidth="w-xs lg:w-3xl">
 		{#snippet heading()}
 			<div class="text-3xl lg:text-7xl">writing</div>
