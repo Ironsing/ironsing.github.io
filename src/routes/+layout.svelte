@@ -1,5 +1,6 @@
 <script lang="ts">
 	import './layout.css';
+	import 'katex/dist/katex.min.css';
 	import '@fontsource-variable/google-sans-flex';
 	import Titlebar from '$lib/Titlebar.svelte';
 

@@ -38,6 +38,7 @@
 	"dependencies": {
 		"@fontsource-variable/google-sans-flex": "^5.3.1",
 		"@lucide/svelte": "^1.39.0",
+		"katex": "^0.18.9",
 		"simple-icons": "^13.21.0"
 	}
 }
