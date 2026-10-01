@@ -1,11 +1,10 @@
 <script lang="ts">
-	import { Link } from '@lucide/svelte';
+	import { siGithub } from 'simple-icons';
 	import ElevatedCard from '$lib/ElevatedCard.svelte';
 	import Hero from '$lib/Hero.svelte';
 
 	const links = {
-		ironsingDev: 'https://ironsing.github.io',
-		ironsingDevWriteup: 'https://example.com',
+		ironsingDev: 'https://github.com/Ironsing/ironsing.github.io',
 		ezmic: 'https://github.com/Ironsing/ezmic',
 		adhere: 'https://github.com/Ironsing/adhere'
 	};
@@ -26,7 +25,9 @@
 				>
 					ironsing.dev
 					<a href={links.ironsingDev} class="shrink-0" aria-label="project link">
-						<Link class="h-4 w-4 text-site-gold" strokeWidth={2} />
+						<svg viewBox="0 0 24 24" class="h-4 w-4 fill-current" aria-hidden="true">
+							<path d={siGithub.path} />
+						</svg>
 					</a>
 				</span>
 				<span class="mt-3 text-xs font-medium tracking-[0.2em] text-site-gold uppercase"
@@ -45,7 +46,9 @@
 				>
 					ezmic
 					<a href={links.ezmic} class="shrink-0" aria-label="project link">
-						<Link class="h-4 w-4 text-site-gold" strokeWidth={2} />
+						<svg viewBox="0 0 24 24" class="h-4 w-4 fill-current" aria-hidden="true">
+							<path d={siGithub.path} />
+						</svg>
 					</a>
 				</span>
 				<span class="mt-3 text-xs font-medium tracking-[0.2em] text-site-gold uppercase"
@@ -64,7 +67,9 @@
 				>
 					Adhere
 					<a href={links.adhere} class="shrink-0" aria-label="project link">
-						<Link class="h-4 w-4 text-site-gold" strokeWidth={2} />
+						<svg viewBox="0 0 24 24" class="h-4 w-4 fill-current" aria-hidden="true">
+							<path d={siGithub.path} />
+						</svg>
 					</a>
 				</span>
 				<span class="mt-3 text-xs font-medium tracking-[0.2em] text-site-gold uppercase"
