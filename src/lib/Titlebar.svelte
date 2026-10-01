@@ -29,7 +29,6 @@
 
 			<nav class="absolute left-0 hidden gap-4 px-6 py-4 text-normal lg:flex">
 				<StyledLink href="/">home</StyledLink>
-				<StyledLink href="/about">about</StyledLink>
 				<StyledLink href="/work">work</StyledLink>
 				<StyledLink href="/writing">writing</StyledLink>
 			</nav>
@@ -45,7 +44,6 @@
 			class="absolute inset-x-0 top-full flex h-[calc(100vh-100%)] flex-col gap-6 bg-bg p-8 lg:hidden"
 		>
 			<StyledLink href="/" onclick={() => (open = false)}>home</StyledLink>
-			<StyledLink href="/about" onclick={() => (open = false)}>about</StyledLink>
 			<StyledLink href="/work" onclick={() => (open = false)}>work</StyledLink>
 			<StyledLink href="/writing" onclick={() => (open = false)}>writing</StyledLink>
 		</nav>

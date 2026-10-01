@@ -11,7 +11,7 @@
 	} = $props();
 </script>
 
-<div class="flex h-dvh min-h-dvh w-dvw flex-col overflow-x-hidden bg-bg">
+<div class="flex min-h-dvh w-dvw flex-col overflow-x-hidden bg-bg">
 	<Titlebar />
 	{@render children()}
 	<footer class="w-full">
