@@ -35,7 +35,7 @@
 				<li>hoard things I know how to do,</li>
 				<li>produce public evidence of work,</li>
 				<li>tell people about that work,</li>
-				<li>and build things.</li>
+				<li>and, in general, build things.</li>
 			</ol>
 		</div>
 	</div>
