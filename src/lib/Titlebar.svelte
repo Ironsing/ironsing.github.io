@@ -31,6 +31,7 @@
 				<StyledLink href="/">home</StyledLink>
 				<StyledLink href="/work">work</StyledLink>
 				<StyledLink href="/writing">writing</StyledLink>
+				<StyledLink href="/privacy">privacy</StyledLink>
 			</nav>
 
 			<a href="/" class="flex w-full items-center justify-center py-4">
@@ -46,6 +47,7 @@
 			<StyledLink href="/" onclick={() => (open = false)}>home</StyledLink>
 			<StyledLink href="/work" onclick={() => (open = false)}>work</StyledLink>
 			<StyledLink href="/writing" onclick={() => (open = false)}>writing</StyledLink>
+			<StyledLink href="/privacy" onclick={() => (open = false)}>privacy</StyledLink>
 		</nav>
 	{/if}
 </header>
